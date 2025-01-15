@@ -368,6 +368,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"Language Common/strings.md": {
+	id: "Language Common/strings.md";
+  slug: "language-common/strings";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "Language Common/vectors.md": {
 	id: "Language Common/vectors.md";
   slug: "language-common/vectors";
